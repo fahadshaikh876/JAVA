@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignupController">
+   <children>
+      <Label layoutX="193.0" layoutY="116.0" text="Name" />
+      <Label layoutX="193.0" layoutY="152.0" text="Email" />
+      <Label layoutX="193.0" layoutY="192.0" text="Contact" />
+      <Label layoutX="193.0" layoutY="241.0" text="Username" />
+      <Label layoutX="193.0" layoutY="290.0" text="Password" />
+      <Label layoutX="259.0" layoutY="64.0" text="Customer Details!" underline="true" />
+      <TextField fx:id="N" layoutX="259.0" layoutY="112.0" promptText="xyz" />
+      <TextField fx:id="E" layoutX="259.0" layoutY="157.0" promptText="xyz@gmail.com" />
+      <TextField fx:id="C" layoutX="259.0" layoutY="197.0" promptText="0211" />
+      <TextField fx:id="U" layoutX="272.0" layoutY="237.0" promptText="xyz12" />
+      <PasswordField fx:id="P" layoutX="259.0" layoutY="286.0" promptText="***" />
+      <Button fx:id="Signup" layoutX="421.0" layoutY="311.0" mnemonicParsing="false" onAction="#signup" text="Sign Up" />
+      <Button fx:id="back" layoutX="157.0" layoutY="336.0" mnemonicParsing="false" onAction="#backcl" text="Back page" />
+   </children>
+</AnchorPane>

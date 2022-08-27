@@ -1,0 +1,7 @@
+Open this folder and then:
+
+1. For Compilation:
+	javac -classpath 'C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.27.jar;.' --module-path 'C:\Program Files (x86)\openjfx-17.0.1_windows-x64_bin-sdk\javafx-sdk-17.0.1\lib' --add-modules javafx.controls,javafx.fxml *.java
+
+2. For Execution:
+	java -classpath 'C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.27.jar;.' --module-path 'C:\Program Files (x86)\openjfx-17.0.1_windows-x64_bin-sdk\javafx-sdk-17.0.1\lib' --add-modules javafx.controls,javafx.fxml App
